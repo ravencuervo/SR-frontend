@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-const API_URL = "http://localhost:1337";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Reglamentos() {
   const [reglamentos, setReglamentos] = useState<Reglamento[]>([]);
