@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { type Evento } from "@/data/eventos";
 import { Card, CardContent } from "@/components/ui/card";
 
-const API_URL = "http://localhost:1337";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Eventos() {
   const [eventos, setEventos] = useState<Evento[]>([]);
