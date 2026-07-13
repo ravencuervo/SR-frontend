@@ -11,7 +11,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 
-const API_URL = "http://localhost:1337";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const ICON_MAP: Record<string, LucideIcon> = {
   Calculator, MessageSquare, FlaskConical, Globe, Dumbbell,
