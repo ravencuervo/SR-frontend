@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { X, ExternalLink, Bell } from "lucide-react";
 
-const API_URL = "http://localhost:1337";
+const API_URL = "https://sr-backend-production-adf5.up.railway.app/";
 
 interface AvisoData {
   titulo: string;
