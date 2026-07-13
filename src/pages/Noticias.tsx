@@ -12,7 +12,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 
-const API_URL = "http://localhost:1337";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Noticias() {
   const [noticias, setNoticias] = useState<Noticia[]>([]);
