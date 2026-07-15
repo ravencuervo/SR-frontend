@@ -233,7 +233,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <a href="https://20df9ec1-2f41-4853-a741-3ccd0ef725c6-00-1kwcuf3tugs9h.picard.replit.dev/login" target="_blank" rel="noopener noreferrer">
+            <a href="https://139aa66b-a91d-4f53-9db2-eeabf2107302-00-dd4u8x4yft30.kirk.replit.dev/login" target="_blank" rel="noopener noreferrer">
               <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-slate-200 group overflow-hidden">
                 <CardContent className="p-8">
                   <div className="w-14 h-14 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
